@@ -1,0 +1,309 @@
+/*.navbg{
+background-color: #5bb06c;
+height:55px;
+}
+.mlogo{
+padding-top: 4px;
+}
+.navbt a{
+color: #fff;
+font-family: Roboto,Helvetica,Arial,sans-serif;
+font-weight: bold;
+padding-left: 18px;
+padding-right: 18px;
+padding-top: 10px !important;
+padding-bottom: 10px;
+text-decoration: none;
+font-size: 60%;
+}
+.navbt a:hover{
+background-color:#2A7D46;
+border-radius:100px;
+}
+.navls a{
+color: #fff;
+font-family: Roboto,Helvetica,Arial,sans-serif;
+font-weight: bold;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-decoration: none;
+font-size: 60%;
+}
+.navls a:hover{
+background-color:#b05b9f;
+border-radius:100px;
+} 
+.sticky 
+{
+position: fixed;
+top: 0;
+width: 100%;
+}
+.sticky + .content
+{
+padding-top: 60px;
+}
+#hcon
+{
+height: 670px;
+background-color: #5bb06c;
+margin-top: 56px !important;
+padding-top: 20px;
+}
+#hcon img{
+margin-left: -120px !important;
+margin-top: 50px !important;
+}
+#hcon h1,p
+{
+margin-top: -8px !important; 
+}
+#wuolcon{
+padding-top: 1px !important;
+}
+#fcon{
+padding-top: 12px !important;
+}
+#faqcon{
+padding-top: 12px !important;
+
+}
+.mline h1{
+color: #fff;
+font-family: Roboto,Helvetica,Arial,sans-serif;
+font-weight: bold;
+font-size: 200%;
+}
+.mline p{
+color: #fff;
+font-family: Roboto,Helvetica,Arial,sans-serif;
+font-size: 130%;
+}
+.pt-5{
+padding-top: 150px !important;
+}
+.wuol{
+font-family: Roboto,Helvetica,Arial,sans-serif;
+background-color: #eaf5f2; 
+height:320px;
+}
+.f1{
+font-family: Roboto,Helvetica,Arial,sans-serif;
+background-color: #eaf5f2; 
+height:320px;
+}
+.faq1
+{
+font-family: Roboto,Helvetica,Arial,sans-serif;
+background-color: #eaf5f2; 
+height:320px;
+}
+.concon
+{
+font-family: Roboto,Helvetica,Arial,sans-serif;
+background-color: #eaf5f2; 
+height:300px;
+}
+.infoboxes{
+font-family: Roboto,Helvetica,Arial,sans-serif;
+font-size: 100%;
+text-align: justify;
+}
+.fa-heart{
+color : #2A7D46;
+font-size: 30px;
+padding-bottom: 20px !important;
+}
+.fa-desktop{
+color : #2A7D46;
+font-size: 30px;
+padding-bottom: 20px !important;
+}
+.fa-question-circle{
+color : #2A7D46;
+font-size: 30px;
+padding-bottom: 20px !important;
+}
+.fa-comment-alt
+{
+color : #2A7D46;
+font-size: 30px;
+padding-bottom: 20px !important;
+}
+.wuolib1{
+margin-left: 80px !important;
+}
+.wuolib2{
+margin-left: 50px !important;
+}
+.wuolib3{
+margin-left: 50px !important;
+}
+.fib1{
+margin-left: 80px !important;
+}
+.fib2{
+margin-left: 50px !important;
+}
+.fib3{
+margin-left: 50px !important;
+}
+.faqib1{
+margin-left: 80px !important;
+}
+.faqib2{
+margin-left: 50px !important;
+}
+.faqib3{
+margin-left: 50px !important;
+}
+
+
+.fa-share-square
+{
+color : #2A7D46;
+font-size: 30px;
+padding-bottom: 20px !important;
+}
+.fa-shield-alt
+{
+color : #2A7D46;
+font-size: 30px;
+padding-bottom: 20px !important;
+}
+.fa-comments
+{
+color : #2A7D46;
+font-size: 30px;
+padding-bottom: 20px !important;
+}
+.fa-link
+{
+color : #2A7D46;
+font-size: 30px;
+padding-bottom: 20px !important;
+}
+.fa-smile
+{
+color : #2A7D46;
+font-size: 30px;
+padding-bottom: 20px !important;
+}
+#sub_content5{
+width: 100% !important;	
+height:670px;
+font-family: Roboto,Helvetica,Arial,sans-serif;
+background-color: #eaf5f2;
+}
+/*.condetails{
+float:left;
+margin-left: 50px !important;
+margin-top: 40px;
+height:520px;
+width: 52%;
+background-color: white;
+}
+.condetails p{
+padding-right: 60px;
+padding-left: 60px;
+padding-top: 10px;
+text-align: justify;
+font-size: 120%;
+word-spacing: 5px;
+line-height: 25px;
+}
+.condetails h2{
+padding-right: 60px;
+padding-left: 60px;
+padding-top: 50px;
+line-height: 25px;
+}*/
+/*#footer{
+background-color: #5bb06c;
+height:150px;
+font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+#footer a{
+color: #fff;
+font-family: Roboto,Helvetica,Arial,sans-serif;
+font-weight: bold;
+padding-left: 18px;
+padding-right: 18px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-decoration: none;
+font-size: 60%;
+margin-top: 20px;
+}
+.nav {
+padding-top: 10px;
+}
+.line{
+border: 1px dashed #2A7D46;
+margin-top: 50px;
+}
+.nav a:hover{
+border-bottom :4px solid #2A7D46;
+}
+.ftcontent p{
+color: #fff;
+font-family: Roboto,Helvetica,Arial,sans-serif;
+}*/
+.container-fluid{
+	font-family: myfontRegular,sans-serif;
+	background-color: #eaf5f2;
+}
+.form-group{
+	margin-right:5%;
+	margin-left:5%;
+}
+.form{
+	
+	background-color: #fff;
+	border-radius: 10px;
+}
+.form-control{
+	border-radius: 8px;
+	border : solid #ced4da 1px;
+}
+.btn{
+	border-radius: 100px;
+}
+.form-group a,input{
+	text-decoration: none;
+	color: #007bff;
+}
+.toplabel{
+	font-size: 130%;
+	color: #fff;
+	margin-left: 0%;
+	margin-right: 0%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.label{
+	font-size: 80%;
+	color: #007bff;
+}
+.checklabel{
+	color: #007bff;
+	font-weight: bold;
+}
+.topdesign{
+	height: 12%;
+	background-color: #007bff;
+	width: 102.75% !important;
+	padding-right:250px !important;
+}
+
+
+/*STUDENT DASHBOARD CSS STARTS*/
+
+.sttopbar{
+	background-color: #007bff;
+}
+.sttopbartitle{
+	color: #fff;
+}
