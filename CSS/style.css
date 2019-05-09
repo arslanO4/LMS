@@ -251,6 +251,9 @@ border-bottom :4px solid #2A7D46;
 color: #fff;
 font-family: Roboto,Helvetica,Arial,sans-serif;
 }*/
+.body{
+	background-color: black;
+}
 .container-fluid{
 	font-family: myfontRegular,sans-serif;
 	background-color: #eaf5f2;
@@ -297,7 +300,8 @@ font-family: Roboto,Helvetica,Arial,sans-serif;
 	width: 102.75% !important;
 	padding-right:250px !important;
 }
-
+.modal-body{
+}
 
 /*STUDENT DASHBOARD CSS STARTS*/
 
