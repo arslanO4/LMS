@@ -1,7 +1,7 @@
 			<!doctype html>
 			<html lang="en">
 			<title>
-			O4 LMS - Profile
+			O4 LMS - Dashboard
 			</title>
 			<head>
 			<!-- Required meta tags -->
@@ -26,42 +26,28 @@
 						</div>
 						<div class="col-md-2 topuser">
 							<a href="#"><i class="fas fa-user-circle"></i> &nbsp
-							Hi, Arsi !</a>
+							Hi, Admin !</a>
 						</div>
 					</div>
 					<div class="row stboard">
 						<div class="col-md-3 sidenavigation">
 							<div class="navigationlink ml-2">
 							<br><br>
-							<a href="stdashboard.html" class="navhome"><i class="fas fa-home"></i> &nbsp Home</a><br><br>
-							<a href="studentprofile.html" class="navprofile"><i class="fas fa-user-alt"></i> &nbsp My Profile</a><br><br>
-							<a href="explorecourse.html" class="navexplore"><i class="fas fa-search"></i> &nbsp Explore Courses</a><br><br>
-							<a href="../Login.html" class="navsignout"><i class="fas fa-sign-out-alt"></i> &nbsp Signout</a><br><br>
-							</div>
+							<a href="addashboard.php" class="navhome"><i class="fas fa-home"></i> &nbsp Home</a><br><br>
+							<a href="adregcourses.php" class="navregcourses"><i class="fas fa-book"></i> &nbsp Register Courses</a><br><br>
+                            <a href="adregstudents.php" class="navregstudents"><i class="fas fa-user-graduate"></i> &nbsp Register Students</a><br><br>
+							<a href="adregteachers.php" class="navregteachers"><i class="fas fa-chalkboard-teacher"></i> &nbsp Register Teachers</a><br><br>
+                            <a href="../Logindesign.php" class="navsignout"><i class="fas fa-sign-out-alt"></i> &nbsp Logout</a><br><br>
+                            </div>
 						</div>
-						<div class="col-md-9 content mt-4 pl-5">
+						<div class="col-md-9 content">
 							<div class="row">
-							<div class="card mr-5" style="width: 80rem;">
-								<div class="card-body">
-                                        <h5 class="card-title">My Profile</h5>
-                                        <label for="First_Name" class="col-form-label"></label>FirstName<br>
-                                        <input type="text" id="First_Name" class="form-control" required><br>
-                                        <label for="Last_Name" class="col-form-label"></label>LastName<br>
-                                        <input type="text" id="Last_Name" class="form-control" required><br>
-                                        <label for="Email" class="col-form-label"></label>Email<br>
-                                        <input type="text" id="Email" class="form-control" required><br>
-                                        <label for="Department" class="col-form-label"></label>Department<br>
-                                        <input type="text" id="Department" class="form-control" required><br>
-                                        <label for="Password" class="col-form-label"></label>Password<br>
-                                        <input type="password" id="Password" class="form-control" required>
-                                        <button class="btn btn-outline-primary pl-4 pr-4 pt-2 pb-2 mt-3">Edit</button>
-								</div>
-							</div>
+                                    <img src="../../Images/uni.jpg" alt="Italian Trulli" height="660" width="900">
 							</div>
 							</div>
 					</div>
 					<!-- footer -->
-					<div class="row stbottombar pb-2 pt-2"> 
+					<div class="row stbottombar"> 
 					<p>© 2019 O4 LMS</p>
 					</div>
 			</div>

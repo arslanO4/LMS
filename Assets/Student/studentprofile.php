@@ -1,7 +1,7 @@
 			<!doctype html>
 			<html lang="en">
 			<title>
-			O4 LMS - Explore
+			O4 LMS - Profile
 			</title>
 			<head>
 			<!-- Required meta tags -->
@@ -33,26 +33,28 @@
 						<div class="col-md-3 sidenavigation">
 							<div class="navigationlink ml-2">
 							<br><br>
-							<a href="stdashboard.html" class="navhome"><i class="fas fa-home"></i> &nbsp Home</a><br><br>
-							<a href="studentprofile.html" class="navprofile"><i class="fas fa-user-alt"></i> &nbsp My Profile</a><br><br>
-							<a href="explorecourse.html" class="navexplore"><i class="fas fa-search"></i> &nbsp Explore Courses</a><br><br>
-							<a href="../Login.html" class="navsignout"><i class="fas fa-sign-out-alt"></i> &nbsp Signout</a><br><br>
+							<a href="stdashboard.php" class="navhome"><i class="fas fa-home"></i> &nbsp Home</a><br><br>
+							<a href="studentprofile.php" class="navprofile"><i class="fas fa-user-alt"></i> &nbsp My Profile</a><br><br>
+							<a href="explorecourse.php" class="navexplore"><i class="fas fa-search"></i> &nbsp Explore Courses</a><br><br>
+							<a href="../Logindesign.php" class="navsignout"><i class="fas fa-sign-out-alt"></i> &nbsp Signout</a><br><br>
 							</div>
 						</div>
 						<div class="col-md-9 content mt-4 pl-5">
 							<div class="row">
 							<div class="card mr-5" style="width: 80rem;">
 								<div class="card-body">
-                                        <h5 class="card-title">Explore Course</h5>
-                                        <a href="#" class="card-text">Probability and Statistics</a> &nbsp <button class="btn btn-outline-primary">Enroll</button><br><br>
-								        <a href="#" class="card-text">Web Engineering</a> &nbsp <button class="btn btn-outline-primary">Enroll</button><br><br>
-								        <a href="#" class="card-text">Python Programming</a> &nbsp <button class="btn btn-outline-primary">Enroll</button><br><br>
-								        <a href="#" class="card-text">Artificial Intelligence</a> &nbsp <button class="btn btn-outline-primary">Enroll</button><br><br>
-                                        <a href="#"class="card-text">Linera Algebra</a> &nbsp <button class="btn btn-outline-primary">Enroll</button><br><br>
-                                        <a href="#"class="card-text">Differential Equation</a> &nbsp <button class="btn btn-outline-primary">Enroll</button><br><br>
-                                        <a href="#"class="card-text">English Language</a> &nbsp <button class="btn btn-outline-primary">Enroll</button><br><br>
-                                        <a href="#"class="card-text">Object Oriented Programming</a> &nbsp <button class="btn btn-outline-primary">Enroll</button><br><br>
-								        <a href="#" class="card-link">See all</a>
+                                        <h5 class="card-title">My Profile</h5>
+                                        <label for="First_Name" class="col-form-label"></label>FirstName<br>
+                                        <input type="text" id="First_Name" class="form-control" required><br>
+                                        <label for="Last_Name" class="col-form-label"></label>LastName<br>
+                                        <input type="text" id="Last_Name" class="form-control" required><br>
+                                        <label for="Email" class="col-form-label"></label>Email<br>
+                                        <input type="text" id="Email" class="form-control" required><br>
+                                        <label for="Department" class="col-form-label"></label>Department<br>
+                                        <input type="text" id="Department" class="form-control" required><br>
+                                        <label for="Password" class="col-form-label"></label>Password<br>
+                                        <input type="password" id="Password" class="form-control" required>
+                                        <button class="btn btn-outline-primary pl-4 pr-4 pt-2 pb-2 mt-3">Edit</button>
 								</div>
 							</div>
 							</div>

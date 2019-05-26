@@ -26,32 +26,45 @@ O4 LMS - Dashboard
             </div>
             <div class="col-md-2 topuser">
                 <a href="#"><i class="fas fa-user-circle"></i> &nbsp
-                Hi, Admin !</a>
+                Hi, Arsi !</a>
             </div>
         </div>
         <div class="row stboard">
             <div class="col-md-3 sidenavigation">
                 <div class="navigationlink ml-2">
                 <br><br>
-                <a href="addashboard.html" class="navhome"><i class="fas fa-home"></i> &nbsp Home</a><br><br>
-                <a href="adregcourses.html" class="navregcourses"><i class="fas fa-book"></i> &nbsp Register Courses</a><br><br>
-                <a href="adregstudents.html" class="navregstudents"><i class="fas fa-user-graduate"></i> &nbsp Register Students</a><br><br>
-                <a href="adregteachers.html" class="navregteachers"><i class="fas fa-chalkboard-teacher"></i> &nbsp Register Teachers</a><br><br>
-                <a href="../Login.html" class="navsignout"><i class="fas fa-sign-out-alt"></i> &nbsp Logout</a><br><br>
+                <a href="Teacherdashboard.php" class="navhome"><i class="fas fa-home"></i> &nbsp Home</a><br><br>
+                <a href="teacherprofile.php" class="navprofile"><i class="fas fa-user-alt"></i> &nbsp My Profile</a><br><br>
+                <a href="createcourse.php" class="createcourse"><i class="fas fa-plus-circle"></i> &nbsp Create Course</a><br><br>
+                <a href="../Login.php" class="navsignout"><i class="fas fa-sign-out-alt"></i> &nbsp Signout</a><br><br>
                 </div>
             </div>
-            <div class="col-md-9 content mt-4 pl-5">
+            <div class="col-md-9 content mt-5 pl-5">
                 <div class="row">
-                        <div class="card mr-5" style="width: 80rem;">
-								<div class="card-body">
-                                    <h5 class="card-title">Register Teachers</h5>
-								</div>
-							</div>
+                <div class="card mr-5" style="width: 20rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">My Courses</h5>
+                    <a href="teachercoursedisplay.html" class="card-text">Artificial Intelligence</a><br><br>
+                    <a href="#" class="card-text">Web Engineering</a><br><br>
+                    <a href="#" class="card-link">See all</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 20rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">News & Events</h5>
+                    <a href="#" class="card-text">O4 Official Webiste is comming soon</a><br><br>
+                    <a href="#" class="card-text">O4 is soon launching AI courses</a><br><br>
+                    <a href="#" class="card-text">Matlabs tutorials are comming soon for O4 students</a><br><br>
+                    <a href="#" class="card-text">Wordpress tutorials are comming soon for O4 students</a><br><br>
+                    <a href="#" class="card-link">See all</a>
+                    </div>
+                </div>
                 </div>
                 </div>
         </div>
         <!-- footer -->
-        <div class="row stbottombar"> 
+        <div class="row stbottombar pb-2 pt-2"> 
         <p>© 2019 O4 LMS</p>
         </div>
 </div>

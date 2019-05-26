@@ -1,7 +1,7 @@
 			<!doctype html>
 			<html lang="en">
 			<title>
-			O4 LMS - Dashboard
+			O4 LMS - Explore
 			</title>
 			<head>
 			<!-- Required meta tags -->
@@ -26,28 +26,55 @@
 						</div>
 						<div class="col-md-2 topuser">
 							<a href="#"><i class="fas fa-user-circle"></i> &nbsp
-							Hi, Admin !</a>
+							Hi, Arsi !</a>
 						</div>
 					</div>
 					<div class="row stboard">
 						<div class="col-md-3 sidenavigation">
 							<div class="navigationlink ml-2">
 							<br><br>
-							<a href="addashboard.html" class="navhome"><i class="fas fa-home"></i> &nbsp Home</a><br><br>
-							<a href="adregcourses.html" class="navregcourses"><i class="fas fa-book"></i> &nbsp Register Courses</a><br><br>
-                            <a href="adregstudents.html" class="navregstudents"><i class="fas fa-user-graduate"></i> &nbsp Register Students</a><br><br>
-							<a href="adregteachers.html" class="navregteachers"><i class="fas fa-chalkboard-teacher"></i> &nbsp Register Teachers</a><br><br>
-                            <a href="../Login.html" class="navsignout"><i class="fas fa-sign-out-alt"></i> &nbsp Logout</a><br><br>
-                            </div>
+							<a href="stdashboard.php" class="navhome"><i class="fas fa-home"></i> &nbsp Home</a><br><br>
+							<a href="studentprofile.php" class="navprofile"><i class="fas fa-user-alt"></i> &nbsp My Profile</a><br><br>
+							<a href="explorecourse.php" class="navexplore"><i class="fas fa-search"></i> &nbsp Explore Courses</a><br><br>
+							<a href="../Logindesign.php" class="navsignout"><i class="fas fa-sign-out-alt"></i> &nbsp Signout</a><br><br>
+							</div>
 						</div>
-						<div class="col-md-9 content">
+						<div class="col-md-9 content mt-4 pl-5">
 							<div class="row">
-                                    <img src="../../Images/uni.jpg" alt="Italian Trulli" height="660" width="900">
+							<div class="card mr-5" style="width: 80rem;">
+								<div class="card-body">
+                                        <h5 class="card-title">Explore Course</h5>
+										<table class="table table-sm">
+												<thead class="thead-dark">
+												<tr>
+													<th>Course Title</th>
+													<th>Department</th>
+													<th>Semester</th>
+													<th>Year</th>
+													<th>ID</th>
+													<th>Description</th>
+												</tr>
+												</thead>
+												<?php
+												include("../Backend/connection.php");
+												$sql = "SELECT * from courses"; 
+												$result = $con-> query($sql);
+												if ($result-> num_rows > 0) {
+													while ($row = $result-> fetch_assoc()) {
+														echo "<tr><td>". $row["coursetitle"] ."</td><td>". $row["department"] ."</td><td>" . $row["semester"] ."</td><td>" . $row["year"] ."</td><td>" . $row["courseid"] ."</td><td>" . $row["description"] ."</td></tr>";
+													}
+													echo"</table>";
+												}
+												$con-> close();
+												?>
+											</table>
+								</div>
+							</div>
 							</div>
 							</div>
 					</div>
 					<!-- footer -->
-					<div class="row stbottombar"> 
+					<div class="row stbottombar pb-2 pt-2"> 
 					<p>© 2019 O4 LMS</p>
 					</div>
 			</div>

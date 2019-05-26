@@ -33,10 +33,10 @@ O4 LMS - Course
             <div class="col-md-3 sidenavigation">
                 <div class="navigationlink ml-2">
                 <br><br>
-                <a href="Teacherdashboard.html" class="navhome"><i class="fas fa-home"></i> &nbsp Home</a><br><br>
-                <a href="teacherprofile.html" class="navprofile"><i class="fas fa-user-alt"></i> &nbsp My Profile</a><br><br>
-                <a href="createcourse.html" class="createcourse"><i class="fas fa-plus-circle"></i> &nbsp Create Course</a><br><br>
-                <a href="../Login.html" class="navsignout"><i class="fas fa-sign-out-alt"></i> &nbsp Signout</a><br><br>
+                <a href="stdashboard.php" class="navhome"><i class="fas fa-home"></i> &nbsp Home</a><br><br>
+                <a href="studentprofile.php" class="navprofile"><i class="fas fa-user-alt"></i> &nbsp My Profile</a><br><br>
+                <a href="explorecourse.php" class="navexplore"><i class="fas fa-search"></i> &nbsp Explore Courses</a><br><br>
+                <a href="../Logindesign.php" class="navsignout"><i class="fas fa-sign-out-alt"></i> &nbsp Signout</a><br><br>
                 </div>
             </div>
             <div class="col-md-9 content mt-4 pl-5">
@@ -45,39 +45,12 @@ O4 LMS - Course
                     <div class="card-body">
                             <h5 class="card-title">Artificial Intelligence</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Lectures & Announcements</h6>
-                            <button class="btn btn-outline-primary pl-4 pr-4 pt-2 pb-2 mt-3" data-toggle="modal" data-target="#exampleModal">Upload</button>
-                            <a href="Teacherdashboard.html"><button class="btn btn-outline-primary pl-4 pr-4 pt-2 pb-2 mt-3">Back</button></a>
+                            <a href="stdashboard.html"><button class="btn btn-outline-primary pl-4 pr-4 pt-2 pb-2 mt-3">Back</button></a>
                     </div>
                 </div>
                 </div>
                 </div>
         </div>
-
-        	<!-- Modal -->
-					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-						<div class="modal-dialog" role="document">
-						  <div class="modal-content">
-							<div class="modal-header">
-							  <h5 class="modal-title" id="exampleModalLabel">Upload</h5>
-							  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							  </button>
-							</div>
-							<div class="modal-body">
-								<form>
-									  <label for="Message" class="col-form-label"></label>Message<br>
-									  <textarea type="text" id="Message" class="form-control"></textarea><br><br>
-									  <input type="file" id="file"><br><br>
-								</form>
-							</div>
-							<div class="modal-footer">
-							  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-							  <button type="button" class="btn btn-primary">Upload
-							</div>
-						  </div>
-						</div>
-                      </div>
-                      
         <!-- footer -->
         <div class="row stbottombar pb-2 pt-2"> 
         <p>© 2019 O4 LMS</p>
